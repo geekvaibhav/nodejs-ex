@@ -1,3 +1,10 @@
+//  OpenShift sample Node application
+var express = require('express'),
+    fs      = require('fs'),
+    app     = express(),
+    eps     = require('ejs'),
+    morgan  = require('morgan');
+
 /* module imports */
 const BotConnector = require('recastai-botconnector')
 const recastai = require('recastai')
